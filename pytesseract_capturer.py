@@ -12,6 +12,7 @@ import bs4 as bs
 import urllib.request
 
 
+
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
@@ -74,8 +75,7 @@ class MyWidget(QtWidgets.QWidget):
             
 
         
-        import bs4 as bs
-        import urllib.request
+
 
         message = text.strip()
 
