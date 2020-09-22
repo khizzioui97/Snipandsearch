@@ -1,7 +1,7 @@
 import tkinter as tk  
 import os 
 import time
-import pytesseract_capturer
+
   
 top = tk.Tk()
   
