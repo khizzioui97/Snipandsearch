@@ -90,7 +90,7 @@ def opening():
 
             message = text.strip()
 
-            url = str(('https://html.duckduckgo.com/html?q='+message))
+            url = str(('https://www.google.com/search?q='+message))
             webview.create_window(message, url)
             webview.start()
             # sauce = urllib.request.urlopen(url).read()
